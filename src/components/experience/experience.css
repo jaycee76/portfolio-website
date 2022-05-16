@@ -40,6 +40,10 @@
     color: var(--color-primary)
 }
 
+.experience__certificates a {
+    text-decoration: none;
+}
+
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) =====================*/
 @media screen and (max-width: 1024px) {
     .experience__container {

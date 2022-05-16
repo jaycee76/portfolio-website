@@ -31,15 +31,14 @@ const About = () => {
             </article>
             <article className='about__card'>
               <VscNote className='about__icon' />
-              <h5>IT Related Certs</h5>
-              <small>5+ Certificates</small>
+              <h5>Projects Started</h5>
+              <small>3+ Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Facilis ipsum quas, mollitia inventore cum accusamus doloribus,
-            voluptates qui magnam nulla aperiam cumque quaerat sapiente nihil sequi perferendis cupiditate, rerum expedita!
+            Hi, I am John Christopher Jasmin. A Fresh Graduate Frontend Developer.
+            I mainly use HTML, CSS, JavaScript, and ReactJS in making awesome websites. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

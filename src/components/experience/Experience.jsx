@@ -59,35 +59,35 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Web Development</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'><a href="https://drive.google.com/file/d/1dS0d2BCacc5Vhi9aKaC3xaGeSP8GyKS0/view?usp=sharing">View Certificate</a></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Angular</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'><a href="https://drive.google.com/file/d/1hzP8sWlBjYQ0gUBHKJGXnEdfefqbFXYG/view?usp=sharing">View Certificate</a></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Git</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'><a href="https://drive.google.com/file/d/16v1Uj_EDCTYmpH8ptywS4BysrbrSd7dd/view?usp=sharing">View Certificate</a></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Visual Studio</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'><a href="https://drive.google.com/file/d/1ZCVsLynvfx-qSFap3PTqxzSYfmNxvNwr/view?usp=sharing">View Certificate</a></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>ReactJS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'><a href="https://drive.google.com/file/d/1SCchAp82phIQZyJhgvELfk-i9aOUpRwu/view?usp=sharing">View Certificate</a></small>
               </div>
             </article>
           </div>
