@@ -3,6 +3,7 @@ import './About.css'
 import ME from '../../assets/me-about.jpg'
 import { BsAward } from 'react-icons/bs'
 import {VscNote} from 'react-icons/vsc'
+import {CgWebsite} from 'react-icons/cg'
 import Fade from 'react-reveal/Fade';
 
 const About = () => {
@@ -32,7 +33,7 @@ const About = () => {
               <small>5+ Certificates</small>
             </article>
             <article className='about__card'>
-              <VscNote className='about__icon' />
+              <CgWebsite className='about__icon' />
               <h5>Projects Started</h5>
               <small>3+ Projects</small>
             </article>
