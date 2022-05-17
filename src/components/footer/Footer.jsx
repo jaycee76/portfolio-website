@@ -19,8 +19,8 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://www.facebook.com/JayceeJasmin/"><AiOutlineFacebook /></a>
-        <a href="https://twitter.com"><FiTwitter /></a>
-        <a href="https://instagram.com"><BsInstagram /></a>
+        <a href="https://twitter.com/jayceejasmin2?t=g3-fuuPAz78_1XDx6B8eCg&s=09p&fbclid=IwAR2DK9BaMpBVIaBVoSN8kdKHYjjd7RVeixRULhwnGtUXpa-Sqtpwr1KxMjk"><FiTwitter /></a>
+        <a href="https://www.instagram.com/jayceejasmin/"><BsInstagram /></a>
       </div>
 
       <div className="footer__copyright">

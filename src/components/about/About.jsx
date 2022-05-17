@@ -3,10 +3,12 @@ import './About.css'
 import ME from '../../assets/me-about.jpg'
 import { BsAward } from 'react-icons/bs'
 import {VscNote} from 'react-icons/vsc'
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
     <section id="about">
+      <Fade bottom>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -44,6 +46,7 @@ const About = () => {
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
+      </Fade>
     </section>
   )
 }

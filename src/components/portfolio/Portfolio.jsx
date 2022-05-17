@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import Fade from 'react-reveal/Fade';
 
 
 const data = [
@@ -25,6 +25,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
+      <Fade bottom>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
@@ -46,6 +47,7 @@ const Portfolio = () => {
         }
 
       </div>
+      </Fade>
     </section>
   )
 }

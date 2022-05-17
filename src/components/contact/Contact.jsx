@@ -2,9 +2,10 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {RiTelegramLine} from 'react-icons/ri'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   const form = useRef();
@@ -20,6 +21,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
+      <Fade bottom>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -38,9 +40,10 @@ const Contact = () => {
             <a href="https://m.me/jayceejasmin" target="_blank">Send a message</a>
           </article>
           <article className='contact__option'>
-            <RiTelegramLine className='contact__option-icon' />
-            <h4>Telegram</h4>
-            <h5>@jyjsn</h5>
+            <AiOutlineLinkedin className='contact__option-icon' />
+            <h4>LinkedIn</h4>
+            <h5>John Christopher Jasmin</h5>
+            <a href="https://www.linkedin.com/in/john-christopher-jasmin-752b2423a/" target="_blank">Connect</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS  */}
@@ -51,6 +54,7 @@ const Contact = () => {
           <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+      </Fade>
     </section>
   )
 }
